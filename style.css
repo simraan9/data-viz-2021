@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+/*Syntax for CSS 
+    tag {
+        property-name:value;
+    }
+
+    friend, ignore if not understood
+*/
+
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: system-ui, sans-serif;
+    font-size: 25px;
+}
+
+header{
+    display: flex; /* for flexible boxes (box-stakced is default) */
+   /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+nav{
+    display:inline-flexbox;
+    justify-content: space-around;
+
+}
+main{
+
+}
+
+footer{
+
+}
